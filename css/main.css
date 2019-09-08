@@ -1054,7 +1054,7 @@ label.label {
 .container.full-width-col.sample-4 {
   display: block;
   min-width: 10px;
-  min-height: 70vh;
+  min-height: 40vh;
   max-width: none;
   background-image: url('../Annabelle%20in%20concert%2018x24%20poster_Sep%205%20copy.jpg');
   background-attachment: scroll;
@@ -1506,6 +1506,7 @@ div.responsive-picture.picture-1:hover {
   }
 
   .container.full-width-col.sample-4 {
+    min-width: 0;
     min-height: 100vh;
     background-image: url('../Annabelle%20in%20concert%2018x24%20poster_Sep%205%20copy.jpg');
     background-size: contain;
@@ -2247,7 +2248,7 @@ div.responsive-picture.picture-1:hover {
   }
 }
 
-@media screen and (min-width: 52.8125rem) {
+@media screen and (min-width: 52.4375rem) {
   /* Text Elements */
 
   h1.heading-1 {
@@ -3129,7 +3130,7 @@ div.responsive-picture.picture-1:hover {
   .container.full-width-col.sample-4 {
     float: none;
     min-width: 20px;
-    min-height: 800px;
+    min-height: 1500px;
     max-width: none;
     max-height: none;
     background-color: #fff;
